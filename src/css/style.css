@@ -1,0 +1,28 @@
+body {
+    color: #999;
+}
+
+img {
+    position: relative;
+    object-fit:cover;
+}
+
+.field {
+    width: 570px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 30px;
+  }
+
+.hole {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    background-color: rgb(148, 163, 183);
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+
