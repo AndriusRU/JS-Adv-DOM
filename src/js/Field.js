@@ -12,7 +12,7 @@ export default class Field {
 
   drawHoles() {
     this.holes = [];
-    for (let i = 0; i < this.boardSize ** 2; i++ ) {
+    for (let i = 0; i < this.boardSize ** 2; i += 1) {
       const hole = document.createElement('div');
       hole.classList.add('hole');
       this.holes.push(hole);
@@ -31,14 +31,13 @@ export default class Field {
       }
       this.curPos = idx;
       this.curElem = this.holes[idx];
-      return this.curElem;
-
     }
+    return this.curElem;
   }
 
   clearField() {
     this.holes.forEach((hole) => {
       hole.innerHTML = '';
-    })
+    });
   }
 }

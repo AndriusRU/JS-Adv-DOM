@@ -1,5 +1,5 @@
 // TODO: write code here
-import Game from "./Game";
+import Game from './Game';
 
 export default class App {
   static init() {

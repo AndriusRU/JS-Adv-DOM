@@ -3,7 +3,6 @@ import Field from './Field';
 import Goblin from './Goblin';
 
 export default class Game {
-  
   constructor(boardSize) {
     this.boardSize = boardSize;
   }
@@ -21,6 +20,4 @@ export default class Game {
       Goblin.getGoblin(this.curPos);
     }, 1000);
   }
-
-
 }
