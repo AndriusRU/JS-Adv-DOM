@@ -37,7 +37,8 @@ export default class Field {
 
   clearField() {
     this.holes.forEach((hole) => {
-      hole.innerHTML = '';
+      const elem = hole;
+      elem.innerHTML = '';
     });
   }
 }
