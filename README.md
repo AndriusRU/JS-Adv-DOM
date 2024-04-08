@@ -1,3 +1,3 @@
 ### Badgik
 
-[https://ci.appveyor.com/api/projects/status/32r7s2skrgm9ubva?svg=true](https://ci.appveyor.com/api/projects/status/32r7s2skrgm9ubva?svg=true)
+[https://ci.appveyor.com/api/projects/status/vyu9h0g7a7iywkwv?svg=true](https://ci.appveyor.com/api/projects/status/vyu9h0g7a7iywkwv?svg=true)
